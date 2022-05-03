@@ -14,5 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    $data = [
+        "nome" => "Antonio",
+        "cognome" => "Rossi",
+        "indirizzo" => "Via Roma, 7",
+        "conoscenze" => [
+            "html", "css", "bootstrap", "javascript", "vue", "nodejs", "php", "database", "laravel(poco)"
+        ]
+    ];
+    return view('home', $data);
+})->name('home');
+
+Route::get('/contacts', function () {
+    return view('contacts');
+})->name('contacts');
+
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+})->name('aboutUs');
+
+Route::get('/products', function () {
+    return view('products');
+})->name('products');
+
+Route::get('/shop', function () {
+    return view('shop');
+})->name('shop');
