@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = [
-        "nome" => "Antonio",
-        "cognome" => "Rossi",
-        "indirizzo" => "Via Roma, 7",
-        "conoscenze" => [
+        "firstName" => "Antonio",
+        "lastName" => "Rossi",
+        "address" => "Via Roma 7",
+        "knowledges" => [
             "html", "css", "bootstrap", "javascript", "vue", "nodejs", "php", "database", "laravel(poco)"
         ]
     ];

@@ -53,13 +53,13 @@
             Hello World!
         </h1>
         <h1>
-            {{ $nome }}, {{ $cognome }}, {{ $indirizzo }}
+            {{ $firstName }} {{ $lastName }}, {{ $address }}
         </h1>
     </div>
 
     <div class="container">
-        @foreach ($conoscenze as $conoscenza)
-                <p>{{$nome}} {{$cognome}} conosce {{$conoscenza}}</p>
+        @foreach ($knowledges as $knowledge)
+                <p>{{$firstName}} {{$lastName}} conosce {{$knowledge}}</p>
         @endforeach
     </div>
 
