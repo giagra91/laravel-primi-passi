@@ -7,6 +7,9 @@
     <title>Products</title>
 </head>
 <body>
+
+    @include('header')
+
     <h1>
         These are our main products.
     </h1>

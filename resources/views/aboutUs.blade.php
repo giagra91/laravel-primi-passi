@@ -7,6 +7,9 @@
     <title>About Us</title>
 </head>
 <body>
+
+    @include('header')
+
     <h1>
         Our story!
     </h1>

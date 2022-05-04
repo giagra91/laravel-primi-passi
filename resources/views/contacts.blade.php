@@ -7,6 +7,9 @@
     <title>Contacts</title>
 </head>
 <body>
+
+    @include('header')
+
     <h1>
         Contact us!
     </h1>

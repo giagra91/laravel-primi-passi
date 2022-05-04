@@ -7,6 +7,9 @@
     <title>Shop</title>
 </head>
 <body>
+
+    @include('header')
+
     <h1>
         This is our shop!
     </h1>
